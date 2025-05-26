@@ -8,14 +8,20 @@
     "test": "test"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "vite build"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
-    "sass": "^1.89.0"
+    "@tailwindcss/vite": "^4.1.7",
+    "sass": "^1.89.0",
+    "tailwindcss": "^4.1.7"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "vite": "^5.0.0",
+    "vite-plugin-ruby": "^5.1.0"
+  }
 }
